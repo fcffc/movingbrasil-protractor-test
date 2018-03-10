@@ -1,0 +1,286 @@
+[
+  {
+    "description": "    Como usuário do site de busca do google\n    Eu desejo realizar pesquisas sobre ferramentas para testes automatizados\n    Para que eu possa ampliar meus conhecimentos sobre o assunto",
+    "keyword": "Feature",
+    "name": "Realizar pesquisa no google",
+    "line": 1,
+    "id": "realizar-pesquisa-no-google",
+    "tags": [],
+    "uri": "features\\pesquisar.feature",
+    "elements": [
+      {
+        "id": "realizar-pesquisa-no-google;pesquisar-cucumber-no-google",
+        "keyword": "Scenario",
+        "line": 7,
+        "name": "Pesquisar Cucumber no google",
+        "tags": [
+          {
+            "name": "@CucumberScenario",
+            "line": 6
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 8,
+            "name": "que eu estou na pagina de pesquisa do Google",
+            "match": {
+              "location": "stepdefinitions\\pesquisarSteps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1904
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 9,
+            "name": "eu digito o texto \"Cucumber\" na caixa de pesquisa",
+            "match": {
+              "location": "stepdefinitions\\pesquisarSteps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 570
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 10,
+            "name": "eu clico no botão de Pesquisa Google",
+            "match": {
+              "location": "stepdefinitions\\pesquisarSteps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2648
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 11,
+            "name": "eu sou redirecionado para a lista de resultados sobre o Cucumber",
+            "match": {
+              "location": "stepdefinitions\\pesquisarSteps.ts:27"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 22
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 12,
+            "name": "eu limpo o texto da pesquisa",
+            "match": {
+              "location": "stepdefinitions\\pesquisarSteps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 196
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "support\\hooks.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2
+            }
+          }
+        ]
+      },
+      {
+        "id": "realizar-pesquisa-no-google;pesquisar-protractor-no-google",
+        "keyword": "Scenario",
+        "line": 15,
+        "name": "Pesquisar Protractor no google",
+        "tags": [
+          {
+            "name": "@ProtractorScenario",
+            "line": 14
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 16,
+            "name": "que eu estou na pagina de pesquisa do Google",
+            "match": {
+              "location": "stepdefinitions\\pesquisarSteps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1465
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 17,
+            "name": "eu digito o texto \"Protractor\" na caixa de pesquisa",
+            "match": {
+              "location": "stepdefinitions\\pesquisarSteps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 736
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 18,
+            "name": "eu clico no botão de Pesquisa Google",
+            "match": {
+              "location": "stepdefinitions\\pesquisarSteps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1654
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 19,
+            "name": "eu sou redirecionado para a lista de resultados sobre o Protractor",
+            "match": {
+              "location": "stepdefinitions\\pesquisarSteps.ts:31"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 70
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 20,
+            "name": "eu limpo o texto da pesquisa",
+            "match": {
+              "location": "stepdefinitions\\pesquisarSteps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 185
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "support\\hooks.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          }
+        ]
+      },
+      {
+        "id": "realizar-pesquisa-no-google;pesquisar-typescript-no-google",
+        "keyword": "Scenario",
+        "line": 23,
+        "name": "Pesquisar TypeScript no google",
+        "tags": [
+          {
+            "name": "@TypeScriptScenario",
+            "line": 22
+          }
+        ],
+        "type": "scenario",
+        "steps": [
+          {
+            "arguments": [],
+            "keyword": "Given ",
+            "line": 24,
+            "name": "que eu estou na pagina de pesquisa do Google",
+            "match": {
+              "location": "stepdefinitions\\pesquisarSteps.ts:9"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 808
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 25,
+            "name": "eu digito o texto \"TypeScript\" na caixa de pesquisa",
+            "match": {
+              "location": "stepdefinitions\\pesquisarSteps.ts:14"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 621
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 26,
+            "name": "eu clico no botão de Pesquisa Google",
+            "match": {
+              "location": "stepdefinitions\\pesquisarSteps.ts:18"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 2093
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "Then ",
+            "line": 27,
+            "name": "eu sou redirecionado para a lista de resultados sobre o TypeScript",
+            "match": {
+              "location": "stepdefinitions\\pesquisarSteps.ts:35"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 51
+            }
+          },
+          {
+            "arguments": [],
+            "keyword": "When ",
+            "line": 28,
+            "name": "eu limpo o texto da pesquisa",
+            "match": {
+              "location": "stepdefinitions\\pesquisarSteps.ts:22"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 272
+            }
+          },
+          {
+            "keyword": "After",
+            "hidden": true,
+            "match": {
+              "location": "support\\hooks.ts:10"
+            },
+            "result": {
+              "status": "passed",
+              "duration": 1
+            }
+          }
+        ]
+      }
+    ]
+  }
+]

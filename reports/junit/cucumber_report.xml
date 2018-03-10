@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuites>
+    <testsuite name="realizar-pesquisa-no-google;pesquisar-cucumber-no-google" tests="5" failures="0" skipped="5">
+        <properties>
+            <property name="@CucumberScenario" value="true">
+            </property>
+            <property name="URI" value="features\pesquisar.feature">
+            </property>
+        </properties>
+        <testcase name="Given que eu estou na pagina de pesquisa do Google" classname="realizar-pesquisa-no-google;pesquisar-cucumber-no-google">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When eu digito o texto &quot;Cucumber&quot; na caixa de pesquisa" classname="realizar-pesquisa-no-google;pesquisar-cucumber-no-google">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When eu clico no botão de Pesquisa Google" classname="realizar-pesquisa-no-google;pesquisar-cucumber-no-google">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then eu sou redirecionado para a lista de resultados sobre o Cucumber" classname="realizar-pesquisa-no-google;pesquisar-cucumber-no-google">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When eu limpo o texto da pesquisa" classname="realizar-pesquisa-no-google;pesquisar-cucumber-no-google">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="realizar-pesquisa-no-google;pesquisar-protractor-no-google" tests="5" failures="0" skipped="5">
+        <properties>
+            <property name="@ProtractorScenario" value="true">
+            </property>
+            <property name="URI" value="features\pesquisar.feature">
+            </property>
+        </properties>
+        <testcase name="Given que eu estou na pagina de pesquisa do Google" classname="realizar-pesquisa-no-google;pesquisar-protractor-no-google">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When eu digito o texto &quot;Protractor&quot; na caixa de pesquisa" classname="realizar-pesquisa-no-google;pesquisar-protractor-no-google">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When eu clico no botão de Pesquisa Google" classname="realizar-pesquisa-no-google;pesquisar-protractor-no-google">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then eu sou redirecionado para a lista de resultados sobre o Protractor" classname="realizar-pesquisa-no-google;pesquisar-protractor-no-google">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When eu limpo o texto da pesquisa" classname="realizar-pesquisa-no-google;pesquisar-protractor-no-google">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+    <testsuite name="realizar-pesquisa-no-google;pesquisar-typescript-no-google" tests="5" failures="0" skipped="5">
+        <properties>
+            <property name="@TypeScriptScenario" value="true">
+            </property>
+            <property name="URI" value="features\pesquisar.feature">
+            </property>
+        </properties>
+        <testcase name="Given que eu estou na pagina de pesquisa do Google" classname="realizar-pesquisa-no-google;pesquisar-typescript-no-google">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When eu digito o texto &quot;TypeScript&quot; na caixa de pesquisa" classname="realizar-pesquisa-no-google;pesquisar-typescript-no-google">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When eu clico no botão de Pesquisa Google" classname="realizar-pesquisa-no-google;pesquisar-typescript-no-google">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="Then eu sou redirecionado para a lista de resultados sobre o TypeScript" classname="realizar-pesquisa-no-google;pesquisar-typescript-no-google">
+            <skipped message="">
+            </skipped>
+        </testcase>
+        <testcase name="When eu limpo o texto da pesquisa" classname="realizar-pesquisa-no-google;pesquisar-typescript-no-google">
+            <skipped message="">
+            </skipped>
+        </testcase>
+    </testsuite>
+</testsuites>
