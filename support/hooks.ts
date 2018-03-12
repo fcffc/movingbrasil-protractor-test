@@ -4,7 +4,7 @@ import { browser } from "protractor";
 import { config } from "../config/config";
 
 BeforeAll({timeout: 10 * 1000}, async () => {
-    //await browser.get(config.baseUrl);
+    await browser.get(config.baseUrl);
 });
 
 After(async function(scenario) {
