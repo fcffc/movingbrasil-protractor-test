@@ -73,6 +73,11 @@ https://nodejs.org/en/download/ ;
 * Pelo prompt de comando/terminal, acesse a pasta a qual deseja salvar o projeto;
 
 * Pelo prompt de comando/terminal, acesse a pasta com o projeto clonado e execute os seguintes comandos:
+
+<p align="left">
+<img src= "./images/cd-nomepasta.png" height=150 alt="titleImage.png"/>
+</p>
+
 ```
    npm install -g typescript
 ```
